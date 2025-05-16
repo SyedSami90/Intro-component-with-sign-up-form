@@ -4,5 +4,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base: '/Intro-component-with-sign-up-form'
+  base: '/Intro-component-with-sign-up-form/'
 })
