@@ -4,5 +4,8 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base: '/Intro-component-with-sign-up-form/'
+  base: '/Intro-component-with-sign-up-form/',
+  build: {
+    assetsInlineLimit: 0  // Force JS/CSS to be separate files
+  }
 })
