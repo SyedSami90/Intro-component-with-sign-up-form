@@ -1,5 +1,4 @@
 import './style.css'
-import './style.css'
 
 const validEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 const inputElements = document.querySelectorAll('input')
