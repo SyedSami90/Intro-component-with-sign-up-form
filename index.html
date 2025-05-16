@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body class="max-[375px]:bg-[url('/images/bg-intro-mobile.png')] max-[1800px]:bg-[url('/images/bg-intro-desktop.png')] max-[1800px]:desktop-bg font-['Poppins']">
+    <main class="px-10 py-9 items-center max-[800px]:flex max-[800px]:flex-col max-[1800px]:grid [grid-template-columns:1.2fr_1fr] place-items-center  ">
+      
+      <div id="left" class="px-5 min-[800px]:pl-20">
+        <h1 class="text-5xl text-white mb-7 mt-20 font-bold leading-14">
+          Learning to code by watching others
+        </h1>
+        <p class="text-white text-lg">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+        </p>
+      </div>
+
+      <div id="right" class="px-5 w-full max-w-[500px] text-lg"> 
+        <div class="text-white bg-purple-custom py-5 px-6 mt-20 mb-5 rounded-xl shadow-purple">
+          <span class="font-bold">Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+
+        <form action="/" method="GET" class="bg-white p-8 rounded-lg space-y-4 shadow-purple border-custom">
+
+          <div>
+            <input id='firstname' type="text" placeholder="First Name" class="border-gray-200 border-2 p-2 rounded-md w-full" />
+            <p class="mt-1 text-sm text-right absolute hidden font-medium">First Name cannot be empty</p>
+          </div>
+
+          <div>
+            <input id='lastname' type="text" placeholder="Last Name" class="border-gray-200 border-2 p-2 rounded-md w-full" />
+            <p class="mt-1 text-sm text-right absolute hidden font-medium">Last Name cannot be empty</p>
+          </div>
+
+          <div>
+            <input id='email' type="text" placeholder="Email Address" class="border-gray-200 border-2 p-2 rounded-md w-full" />
+            <p class="mt-1  text-sm text-right absolute hidden font-medium">Looks like this is not an email</p>
+          </div>
+          
+          <div>
+            <input id='password' type="text" placeholder="Password" class="border-gray-200 border-2 p-2 rounded-md w-full" />
+            <p class="mt-1 text-sm text-right absolute hidden font-medium">Password cannot be empty</p>
+            
+          </div>
+
+          <button id="submit" type="submit"
+            class="w-full bg-[hsl(154,59%,51%)] shadow-[0_5px_hsla(154,60%,46%)] rounded-md text-white py-3 hover:bg-[hsl(154,59%,56%)] hover:shadow-[0_5px_hsla(154,60%,49%)] cursor-pointer font-medium">
+            CLAIM YOUR FREE TRIAL
+          </button>
+
+          <p class="text-xs  text-center font-semibold terms">
+            By clicking the button, you are agreeing to our
+            <span class="font-bold">Terms and Services</span>
+          </p>
+        </form>
+      </div>
+
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+input {
+  outline: none;
+}
+
+input + p,
+.terms span {
+  color: hsl(0, 100%, 74%);
+}
+.terms {
+    color: hsl(246,25%,77%);
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+}
+
+.bg-purple-custom {
+  background-color: hsl(248, 32%, 49%);
+}
+
+
+.shadow-purple {
+  box-shadow: 0 8px hsla(249, 10%, 26%, 0.15);
+}
+
+
+.border-custom {
+  border-color: hsl(246, 25%, 77%);
+}
+
+.border-red-custom {
+    border-color: hsl(0, 100%, 74%);
+}
+
+
+
